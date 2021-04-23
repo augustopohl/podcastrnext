@@ -53,23 +53,23 @@
         span {
             display: inline-block;
             font-size: 0.875rem;
-        }
 
-        & + span {
-            margin-left: 1rem;
-            padding-left: 1rem;
-            position: relative;
-
-            &::before {
-                content: "";
-                width: 4px;
-                height: 4px;
-                border-radius: 2px;
-                background: #DDD;
-                position: absolute;
-                left: 0;
-                top: 50%;
-                transform: translate(-50%, -50%);
+            & + span {
+                margin-left: 1rem;
+                padding-left: 1rem;
+                position: relative;
+    
+                &::before {
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 2px;
+                    background: #DDD;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
         }
     }
